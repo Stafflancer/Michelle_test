@@ -1,0 +1,8 @@
+// Include bootstrap variables definitions overrides.
+@import 'overrides/variables';
+
+// Include custom sub theme.
+@import 'custom/variables';
+
+// Include parent theme with all things Boostrap for full override
+@import "[DOCROOT]/themes/custom/event_booking_system/scss/style";

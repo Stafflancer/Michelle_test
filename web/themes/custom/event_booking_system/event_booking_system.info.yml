@@ -1,0 +1,20 @@
+name: Event booking system
+type: theme
+description: 'Event booking system subtheme'
+core: 8.x
+libraries-override:
+  bootstrap4/global-styling:
+    css:
+      theme:
+        css/style.css: css/style.css
+base theme: bootstrap4
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer

@@ -1,4 +1,0 @@
-booking.booking:
-  path: '/booking'
-  defaults:
-    _title: 'Booking Events'

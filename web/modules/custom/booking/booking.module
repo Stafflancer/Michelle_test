@@ -1,7 +1,0 @@
-<?php
-
-/*Implements hook_entity_info_alter().
-*
-Set up view modes as an array.
-*/
-

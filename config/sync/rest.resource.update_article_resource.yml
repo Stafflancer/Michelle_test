@@ -1,0 +1,22 @@
+uuid: 19af4fe6-69a8-46b8-88eb-51b1d8eca112
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - hal
+    - rest_api_access_token
+    - serialization
+    - test_rest
+id: update_article_resource
+plugin_id: update_article_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - hal_json
+    - json
+  authentication:
+    - rest_api_access_token
+    - basic_auth

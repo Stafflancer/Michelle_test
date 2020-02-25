@@ -1,0 +1,22 @@
+uuid: 48cefecf-8cea-4993-914c-7056c9c59ab6
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - event_booking_system
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: event_booking_system_help
+theme: event_booking_system
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

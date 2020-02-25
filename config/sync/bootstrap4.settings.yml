@@ -1,0 +1,18 @@
+b4_body_schema: none
+b4_body_bg_schema: none
+b4_navbar_schema: dark
+b4_navbar_bg_schema: dark
+b4_footer_schema: dark
+b4_footer_bg_schema: secondary
+b4_top_container: container
+_core:
+  default_config_hash: pM0TP3yzf51P6gSCbCU8qhyHK5mQ03cdZJ4pRva0G9o
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 1

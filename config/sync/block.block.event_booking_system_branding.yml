@@ -1,0 +1,25 @@
+uuid: bd16e4f7-8723-4aff-8627-3f0106c0df5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - event_booking_system
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: event_booking_system_branding
+theme: event_booking_system
+region: header
+weight: -9
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 033d3235-a780-4b98-99d8-d9b22e182495
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - event_booking_system
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: event_booking_system_content
+theme: event_booking_system
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 3bcff7bc-90cc-42cb-bd05-d567326a3577
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - event_booking_system
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: event_booking_system_messages
+theme: event_booking_system
+region: header
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

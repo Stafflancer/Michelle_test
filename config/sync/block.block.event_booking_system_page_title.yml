@@ -1,0 +1,20 @@
+uuid: 92097e56-e0f6-439c-8ea5-e23158ce0a51
+langcode: en
+status: true
+dependencies:
+  theme:
+    - event_booking_system
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: event_booking_system_page_title
+theme: event_booking_system
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

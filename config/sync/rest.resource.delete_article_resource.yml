@@ -1,0 +1,22 @@
+uuid: 3500e195-b844-4b3c-be45-ad1c1dac92f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - hal
+    - rest_api_access_token
+    - serialization
+    - test_rest
+id: delete_article_resource
+plugin_id: delete_article_resource
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - hal_json
+    - json
+  authentication:
+    - rest_api_access_token
+    - basic_auth

@@ -1,0 +1,22 @@
+uuid: 135cde74-2189-48d0-846b-d2917470b822
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - event_booking_system
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: event_booking_system_breadcrumbs
+theme: event_booking_system
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

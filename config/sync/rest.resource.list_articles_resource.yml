@@ -1,0 +1,22 @@
+uuid: b2ddc8d1-6b95-4c0d-a67f-02a827893735
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - hal
+    - rest_api_access_token
+    - serialization
+    - test_rest
+id: list_articles_resource
+plugin_id: list_articles_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - hal_json
+    - json
+  authentication:
+    - rest_api_access_token
+    - basic_auth

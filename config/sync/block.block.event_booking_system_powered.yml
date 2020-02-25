@@ -1,0 +1,22 @@
+uuid: 01d8feec-717c-4b09-b6f5-f767f6ed4a6e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - event_booking_system
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: event_booking_system_powered
+theme: event_booking_system
+region: header
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

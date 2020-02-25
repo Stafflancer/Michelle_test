@@ -1,0 +1,32 @@
+uuid: 478766ce-db0f-4937-a7a6-a2090eba05ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_form_block
+    - node
+  theme:
+    - event_booking_system
+id: entityformcontent
+theme: event_booking_system
+region: content
+weight: 0
+provider: null
+plugin: 'entity_form:node'
+settings:
+  id: 'entity_form:node'
+  label: 'Entity form (Content)'
+  provider: entity_form_block
+  label_display: '0'
+  form_mode: event
+  entity_bundle: event
+  context_mapping:
+    entity: '@node.node_route_context:node'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      event: event
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

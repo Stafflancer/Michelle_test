@@ -1,0 +1,20 @@
+uuid: 8d8d93ad-7599-438c-b98a-61f49c84a2f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - event_booking_system
+id: poweredbydrupal
+theme: event_booking_system
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

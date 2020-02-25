@@ -1,0 +1,14 @@
+uuid: 9200fcc5-e9aa-46f3-bbe6-7fe19dfd0e1a
+name: 'Event Booking System'
+mail: seorusus@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/5
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

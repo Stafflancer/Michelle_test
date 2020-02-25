@@ -1,0 +1,20 @@
+uuid: 332718fc-24f3-418f-9f68-77ea97f7779c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - event_booking_system
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: event_booking_system_local_actions
+theme: event_booking_system
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

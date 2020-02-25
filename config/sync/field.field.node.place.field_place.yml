@@ -1,0 +1,28 @@
+uuid: 85e3bc6a-4f0a-487a-8582-b966132dfb65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_place
+    - node.type.place
+  module:
+    - geolocation
+id: node.place.field_place
+field_name: field_place
+entity_type: node
+bundle: place
+label: Place
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    lat_sin: '0.74862469605676'
+    lat_cos: '0.66299401539827'
+    lng_rad: '0.61166997057803'
+    value: '48.47138485446353, 35.04610776901245'
+    lat: '48.47138485446353'
+    lng: '35.04610776901245'
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

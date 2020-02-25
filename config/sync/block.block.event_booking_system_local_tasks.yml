@@ -1,0 +1,22 @@
+uuid: 1530ba3b-466a-4d3a-b213-b37ccd947c2b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - event_booking_system
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: event_booking_system_local_tasks
+theme: event_booking_system
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

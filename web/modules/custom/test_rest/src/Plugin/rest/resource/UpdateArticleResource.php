@@ -72,20 +72,23 @@ class UpdateArticleResource extends ResourceBase {
   }
 
   /**
-   * Responds to GET requests.
+   * Responds to POST requests.
    */
-  public function get(int $id) {
-    if (!$this->currentUser->hasPermission('access content')) {
+  public function post($entity_data) {
+    if (!$this->currentUser->hasPermission('create article content')) {
       throw new AccessDeniedHttpException();
     }
 
-    $article = \Drupal::entityTypeManager()->getStorage('node')->load($id);
-    if ($article && $article->bundle() == 'article') {
+    try {
+      $entity_data['type'] = 'article';
+      $article = \Drupal::entityTypeManager()
+        ->getStorage('node')
+        ->create($entity_data);
+      $article->save();
       return new ResourceResponse($article);
     }
-    else {
-      $response['message'] = 'Article with provided ID is not found.';
-      return new ResourceResponse($response, 400);
+    catch (\Exception $e) {
+      return new ResourceResponse('Something went wrong during entity creation. Check your data.', 400);
     }
   }
 

@@ -1,4 +1,0 @@
-services:
-  Drupal\booking\Form\AjaxFormSubmit:
-    tags:
-      - { name: ajax_form_submit }

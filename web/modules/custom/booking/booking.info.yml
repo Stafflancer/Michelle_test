@@ -1,6 +1,0 @@
-name: Booking
-core: 8.x
-description: Provides Booking functional.
-package: Custom
-type: module
-version: VERSION
